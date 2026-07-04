@@ -6,7 +6,8 @@ public class PlayerMovement : MonoBehaviour
 
 //Variables
 
-public float speed = 5f;
+public float speed = 4f;
+public Animator anim;
 
 private Rigidbody2D rb;
 
@@ -25,8 +26,11 @@ private Rigidbody2D rb;
 
         Vector2 movement = new Vector2(x,y) * speed;
 
+        
+        anim.SetFloat("horizontal", x);
+        anim.SetFloat("vertical", y);
+
         rb.linearVelocity = movement;
-        Debug.Log(x);
-        Debug.Log(y);
+       
     }
 }
