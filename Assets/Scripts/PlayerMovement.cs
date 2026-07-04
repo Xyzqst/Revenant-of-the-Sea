@@ -5,9 +5,9 @@ public class PlayerMovement : MonoBehaviour
 {
 
 //Variables
-
 public float speed = 4f;
 public Animator anim;
+
 
 private Rigidbody2D rb;
 
