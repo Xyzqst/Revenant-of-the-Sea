@@ -332,12 +332,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 161268028}
-  - component: {fileID: 161268027}
-  - component: {fileID: 161268031}
-  - component: {fileID: 161268030}
-  - component: {fileID: 161268029}
-  - component: {fileID: 161268033}
   - component: {fileID: 161268032}
+  - component: {fileID: 161268029}
+  - component: {fileID: 161268027}
+  - component: {fileID: 161268030}
+  - component: {fileID: 161268031}
+  - component: {fileID: 161268033}
+  - component: {fileID: 161268034}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -533,6 +534,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   maxHealth: 5
   healthBar: {fileID: 914808387}
+--- !u!114 &161268034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161268026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08739df7d959a64e945c575b195e6fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerCombat
+  anim: {fileID: 0}
+  rb: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
