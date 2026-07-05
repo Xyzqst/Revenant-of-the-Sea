@@ -7,6 +7,12 @@ public class PlayerCombat : MonoBehaviour
     public Animator anim;
     public Rigidbody2D rb;
 
+    public float attackCooldown = 1;
+    private float timer;
+    private Vector2 lastMoveDirection = Vector2.down;
+
+
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -16,13 +22,27 @@ public class PlayerCombat : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-          if (Input.GetMouseButtonDown(0))
+    {   
+        if (timer > 0)
         {
-            Debug.Log("CLICKED");
+            timer -= Time.deltaTime;
+        }
+
+          if (Input.GetMouseButtonDown(0) && timer <=0 && !anim.GetBool("isAttacking"))
+        {   
+
+            anim.SetBool("isAttacking", true);
+            rb.linearVelocity = Vector2.zero;
+            timer = attackCooldown;
             attack();
+            
              
         }
+    }   
+
+    public void finishAttack()
+    {
+        anim.SetBool("isAttacking", false);
     }
 
     //player attack method
@@ -38,12 +58,14 @@ public class PlayerCombat : MonoBehaviour
        
         if (direction.x > 0)
         {
-            Debug.Log("Attack Right!");
+            anim.SetFloat("horizontal", 1f);
+            anim.SetFloat("vertical", 0f);
         }
 
         else
         {
-            Debug.Log("Attack Left!");
+            anim.SetFloat("horizontal", -1f);
+            anim.SetFloat("vertical", 0f);
         }
 
     }
@@ -52,13 +74,21 @@ public class PlayerCombat : MonoBehaviour
        
         if (direction.y > 0)
         {
-            Debug.Log("Attack Up!");
+            anim.SetFloat("horizontal", 0f);
+            anim.SetFloat("vertical", 1f);
         }
         else
         {
-            Debug.Log("Attack Down!");
+            anim.SetFloat("horizontal", 0f);
+            anim.SetFloat("vertical", -1f);
+
         }
+
+        
     }
+
+        lastMoveDirection = new Vector2(anim.GetFloat("horizontal"),anim.GetFloat("vertical"));
+    
     }
     
 }
