@@ -49,7 +49,7 @@ public class EnemyMovement : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {   
             rb.linearVelocity = Vector2.zero;
-             isChasing = false;
+            isChasing = false;
         }
        
     }

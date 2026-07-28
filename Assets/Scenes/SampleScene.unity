@@ -548,7 +548,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCombat
   anim: {fileID: 161268032}
   rb: {fileID: 161268030}
-  attackCooldown: 2
+  attackCooldown: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,4 +1,5 @@
 
+using System;
 using UnityEngine;
 
 public class PlayerCombat : MonoBehaviour
@@ -7,9 +8,10 @@ public class PlayerCombat : MonoBehaviour
     public Animator anim;
     public Rigidbody2D rb;
 
-    public float attackCooldown = 1;
+    public float attackCooldown = 0.3f;
     private float timer;
-    private Vector2 lastMoveDirection = Vector2.down;
+    public Vector2 lastattackDirection;
+    Vector2 direction = new Vector2();
 
 
 
@@ -30,12 +32,12 @@ public class PlayerCombat : MonoBehaviour
 
           if (Input.GetMouseButtonDown(0) && timer <=0 && !anim.GetBool("isAttacking"))
         {   
-
+           
             anim.SetBool("isAttacking", true);
-            rb.linearVelocity = Vector2.zero;
+          
             timer = attackCooldown;
             attack();
-            
+
              
         }
     }   
@@ -50,22 +52,27 @@ public class PlayerCombat : MonoBehaviour
     {
      
     Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-    Vector2 direction = mousePosition - (Vector2)transform.position;
+    direction = mousePosition - (Vector2)transform.position;
 
-   
-    if (Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
+    PlayerMovement lastmove = GetComponent<PlayerMovement>();
+
+    if (Mathf.RoundToInt(Mathf.Abs(direction.x)) > Mathf.Abs(direction.y))
     {
        
         if (direction.x > 0)
         {
             anim.SetFloat("horizontal", 1f);
             anim.SetFloat("vertical", 0f);
+           lastmove.lastMoveDirection = new Vector2(1f , 0f);
+            Debug.Log("attack RIGHT");
         }
 
         else
         {
             anim.SetFloat("horizontal", -1f);
             anim.SetFloat("vertical", 0f);
+            lastmove.lastMoveDirection = new Vector2(-1f , 0f);
+            Debug.Log("attack LEFT");
         }
 
     }
@@ -76,18 +83,23 @@ public class PlayerCombat : MonoBehaviour
         {
             anim.SetFloat("horizontal", 0f);
             anim.SetFloat("vertical", 1f);
+            lastmove.lastMoveDirection = new Vector2(0f , 1f);
+            Debug.Log("attack up");
         }
         else
         {
             anim.SetFloat("horizontal", 0f);
             anim.SetFloat("vertical", -1f);
+            lastmove.lastMoveDirection = new Vector2(0f , -1f);
+            Debug.Log("attack down");
 
         }
 
+
         
     }
+    
 
-        lastMoveDirection = new Vector2(anim.GetFloat("horizontal"),anim.GetFloat("vertical"));
     
     }
     
