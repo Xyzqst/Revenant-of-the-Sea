@@ -1,6 +1,9 @@
 
 using System;
+using JetBrains.Annotations;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class PlayerCombat : MonoBehaviour
 {
@@ -10,8 +13,14 @@ public class PlayerCombat : MonoBehaviour
 
     public float attackCooldown = 0.3f;
     private float timer;
-    public Vector2 lastattackDirection;
+
     Vector2 direction = new Vector2();
+
+    public Transform attackpoint;
+    public float attackdistance = 0.25f;
+    public float attackradius = 0.3f;
+    public LayerMask enemyLayer;
+    public int damage = 1;
 
 
 
@@ -60,19 +69,27 @@ public class PlayerCombat : MonoBehaviour
     {
        
         if (direction.x > 0)
-        {
+        {   
+            //attack right
             anim.SetFloat("horizontal", 1f);
             anim.SetFloat("vertical", 0f);
-           lastmove.lastMoveDirection = new Vector2(1f , 0f);
+            lastmove.lastMoveDirection = new Vector2(1f , 0f);
+            attackpoint.localPosition = Vector2.right * attackdistance;
+            attackpoint.localRotation = Quaternion.Euler(0, 0, 0);
+           
             Debug.Log("attack RIGHT");
         }
 
         else
-        {
+        {   
+            //attack left
             anim.SetFloat("horizontal", -1f);
             anim.SetFloat("vertical", 0f);
             lastmove.lastMoveDirection = new Vector2(-1f , 0f);
             Debug.Log("attack LEFT");
+           attackpoint.localPosition = Vector2.left * attackdistance;
+            attackpoint.localRotation = Quaternion.Euler(0, 0, 0);
+
         }
 
     }
@@ -81,20 +98,28 @@ public class PlayerCombat : MonoBehaviour
        
         if (direction.y > 0)
         {
+            //attack up
             anim.SetFloat("horizontal", 0f);
             anim.SetFloat("vertical", 1f);
             lastmove.lastMoveDirection = new Vector2(0f , 1f);
             Debug.Log("attack up");
+            attackpoint.localPosition = Vector2.up * attackdistance;
+            attackpoint.localRotation = Quaternion.Euler(0, 0, -90);
+         
+
         }
         else
-        {
+        {   
+            //attack down
             anim.SetFloat("horizontal", 0f);
             anim.SetFloat("vertical", -1f);
             lastmove.lastMoveDirection = new Vector2(0f , -1f);
+            attackpoint.localPosition = Vector2.down * attackdistance;
+            attackpoint.localRotation = Quaternion.Euler(0, 0, 90);
+
             Debug.Log("attack down");
 
         }
-
 
         
     }
@@ -103,4 +128,21 @@ public class PlayerCombat : MonoBehaviour
     
     }
     
+    public void dealDamage()
+    {
+        Collider2D[] enemies = Physics2D.OverlapCircleAll(attackpoint.position , attackradius , enemyLayer);
+
+        foreach(Collider2D enemy in enemies)
+        {
+            EnemyHealth enemyHealth = enemy.GetComponent<EnemyHealth>();
+
+            if(enemy.isTrigger) continue;
+
+            if (enemyHealth != null)
+            {
+                enemyHealth.damageHealth(damage);
+            }
+        }
+
+    }
 }
