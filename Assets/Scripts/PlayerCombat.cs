@@ -17,8 +17,9 @@ public class PlayerCombat : MonoBehaviour
     Vector2 direction = new Vector2();
 
     public Transform attackpoint;
-    public float attackdistance = 0.25f;
-    public float attackradius = 0.3f;
+    public float attackdistance = 0.2f;
+
+    public Vector2 attackArea = new Vector2(1.7f,2f);
     public LayerMask enemyLayer;
     public int damage = 1;
 
@@ -130,7 +131,7 @@ public class PlayerCombat : MonoBehaviour
     
     public void dealDamage()
     {
-        Collider2D[] enemies = Physics2D.OverlapCircleAll(attackpoint.position , attackradius , enemyLayer);
+        Collider2D[] enemies = Physics2D.OverlapBoxAll(attackpoint.position , attackArea , enemyLayer);
 
         foreach(Collider2D enemy in enemies)
         {
@@ -144,5 +145,18 @@ public class PlayerCombat : MonoBehaviour
             }
         }
 
+    }
+
+   private void OnDrawGizmosSelected()
+    {
+        if (attackpoint == null) return;
+
+        Gizmos.color = Color.red;
+
+        // Tell the Gizmo to use the exact rotation and position of the attackpoint
+        Gizmos.matrix = attackpoint.localToWorldMatrix;
+        
+        // Draw the box (Vector3.zero means center it on the attackpoint)
+        Gizmos.DrawWireCube(Vector3.zero, attackArea);
     }
 }

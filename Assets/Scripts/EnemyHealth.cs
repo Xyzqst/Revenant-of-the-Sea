@@ -25,7 +25,7 @@ public class EnemyHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        enemyHealthBar.transform.position = Camera.main.WorldToScreenPoint(transform.position + Vector3.up * 1f);
+        enemyHealthBar.transform.position = Camera.main.WorldToScreenPoint(transform.position + Vector3.up * 1.1f);
 
 
     }

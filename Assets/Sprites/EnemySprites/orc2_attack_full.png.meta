@@ -1,115 +1,121 @@
 fileFormatVersion: 2
-guid: 99b04644606997940b49d7bc3a723199
+guid: 7bcebd4381ad200449363d6a5c1d86be
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3799508404887519019
-    second: Orc_0
+      213: 8954187285698921793
+    second: orc2_attack_full_0
   - first:
-      213: -9003958548615516068
-    second: Orc_1
+      213: 7369422475116114518
+    second: orc2_attack_full_1
   - first:
-      213: -4848521796537363852
-    second: Orc_2
+      213: -1173247154441346145
+    second: orc2_attack_full_2
   - first:
-      213: -4561745191760880128
-    second: Orc_3
+      213: 784554901587266000
+    second: orc2_attack_full_3
   - first:
-      213: 2090174075836721236
-    second: Orc_4
+      213: -6146448091886057175
+    second: orc2_attack_full_4
   - first:
-      213: -104981853600970874
-    second: Orc_5
+      213: 1358253190191903591
+    second: orc2_attack_full_5
   - first:
-      213: 2897101806617490989
-    second: Orc_6
+      213: 624026439094178846
+    second: orc2_attack_full_6
   - first:
-      213: -5387681273772109387
-    second: Orc_7
+      213: 6210005597590915697
+    second: orc2_attack_full_7
   - first:
-      213: -4487082467582646406
-    second: Orc_8
+      213: -7457063870938938066
+    second: orc2_attack_full_8
   - first:
-      213: -4492628054501975806
-    second: Orc_9
+      213: 4667780783463807567
+    second: orc2_attack_full_9
   - first:
-      213: -5255064192898293917
-    second: Orc_10
+      213: -8973230801233295797
+    second: orc2_attack_full_10
   - first:
-      213: 1775836896072057239
-    second: Orc_11
+      213: 7368952380255190324
+    second: orc2_attack_full_11
   - first:
-      213: 8509750463533020753
-    second: Orc_12
+      213: -3279367142057360995
+    second: orc2_attack_full_12
   - first:
-      213: 3726779511297121340
-    second: Orc_13
+      213: 3167555203293896314
+    second: orc2_attack_full_13
   - first:
-      213: 1292906774393753324
-    second: Orc_14
+      213: 6606251569814962155
+    second: orc2_attack_full_14
   - first:
-      213: 2508835607153844694
-    second: Orc_15
+      213: -633913448640043036
+    second: orc2_attack_full_15
   - first:
-      213: 160163770084513234
-    second: Orc_16
+      213: 4284874197764038867
+    second: orc2_attack_full_16
   - first:
-      213: -255199864349076070
-    second: Orc_17
+      213: 2632352582678775983
+    second: orc2_attack_full_17
   - first:
-      213: -3969097664858752442
-    second: Orc_18
+      213: 2990854137913382811
+    second: orc2_attack_full_18
   - first:
-      213: 6223794719511703634
-    second: Orc_19
+      213: -8245487192227940570
+    second: orc2_attack_full_19
   - first:
-      213: -8189613066579858216
-    second: Orc_20
+      213: -8475261127992423094
+    second: orc2_attack_full_20
   - first:
-      213: -6231698651707420963
-    second: Orc_21
+      213: -6795166013975289838
+    second: orc2_attack_full_21
   - first:
-      213: -7930362091750605017
-    second: Orc_22
+      213: 1343704165552325570
+    second: orc2_attack_full_22
   - first:
-      213: 7151978387250360421
-    second: Orc_23
+      213: 3535834944592429949
+    second: orc2_attack_full_23
   - first:
-      213: 3241123462135466627
-    second: Orc_24
+      213: 5502158156550813649
+    second: orc2_attack_full_24
   - first:
-      213: -4833688072403574906
-    second: Orc_25
+      213: 8108072595376920072
+    second: orc2_attack_full_25
   - first:
-      213: -337217167416535715
-    second: Orc_26
+      213: -509444851576268862
+    second: orc2_attack_full_26
   - first:
-      213: -1420869352781472879
-    second: Orc_27
+      213: 4626841457107787390
+    second: orc2_attack_full_27
   - first:
-      213: -8537654572011523767
-    second: Orc_28
+      213: 5741399946095421162
+    second: orc2_attack_full_28
   - first:
-      213: 4201440855533994549
-    second: Orc_29
+      213: -4243052103261531887
+    second: orc2_attack_full_29
   - first:
-      213: -229307623453473662
-    second: Orc_30
+      213: -5329780486526020083
+    second: orc2_attack_full_30
   - first:
-      213: 6038443146981578319
-    second: Orc_31
+      213: -5185922385318251823
+    second: orc2_attack_full_31
   - first:
-      213: -6751517663992241325
-    second: Orc_32
+      213: 9107730714090942420
+    second: orc2_attack_full_32
   - first:
-      213: 1925807571168068822
-    second: Orc_33
+      213: 8183960867906470813
+    second: orc2_attack_full_33
   - first:
-      213: 3343983511578409606
-    second: Orc_34
+      213: 6957133964174084750
+    second: orc2_attack_full_34
   - first:
-      213: -2407993781451882246
-    second: Orc_35
+      213: 8280160321048717325
+    second: orc2_attack_full_35
+  - first:
+      213: -8399877321896338712
+    second: orc2_attack_full_36
+  - first:
+      213: -2670922856292812408
+    second: orc2_attack_full_37
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -156,7 +162,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -218,145 +224,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Orc_0
+      name: orc2_attack_full_0
       rect:
         serializedVersion: 2
-        x: 44
-        y: 543
-        width: 22
-        height: 15
-      alignment: 9
-      pivot: {x: 0.35, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b2f7e6a73c09ab430800000000000000
-      internalID: 3799508404887519019
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc_1
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 543
-        width: 22
-        height: 15
-      alignment: 9
-      pivot: {x: 0.35, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c503e61b7638b0380800000000000000
-      internalID: -9003958548615516068
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc_2
-      rect:
-        serializedVersion: 2
-        x: 244
-        y: 543
-        width: 22
-        height: 16
-      alignment: 9
-      pivot: {x: 0.35, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 472d6a75d1796bcb0800000000000000
-      internalID: -4848521796537363852
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc_3
-      rect:
-        serializedVersion: 2
-        x: 344
-        y: 543
-        width: 22
-        height: 16
-      alignment: 9
-      pivot: {x: 0.35, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00e1f31daec61b0c0800000000000000
-      internalID: -4561745191760880128
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc_4
-      rect:
-        serializedVersion: 2
-        x: 444
-        y: 543
-        width: 22
-        height: 15
-      alignment: 9
-      pivot: {x: 0.35, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4586afc6f3ac10d10800000000000000
-      internalID: 2090174075836721236
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc_5
-      rect:
-        serializedVersion: 2
-        x: 544
-        y: 543
-        width: 22
-        height: 15
-      alignment: 9
-      pivot: {x: 0.35, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 68780447f870b8ef0800000000000000
-      internalID: -104981853600970874
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc_6
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 443
-        width: 22
-        height: 15
+        x: 0
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,20 +239,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d26f39d5eb2943820800000000000000
-      internalID: 2897101806617490989
+      spriteID: 145476025e9a34c70800000000000000
+      internalID: 8954187285698921793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc_7
+      name: orc2_attack_full_1
       rect:
         serializedVersion: 2
-        x: 144
-        y: 444
-        width: 22
-        height: 15
+        x: 64
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -387,20 +261,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5b11ac93d6c1b35b0800000000000000
-      internalID: -5387681273772109387
+      spriteID: 652731d32b2754660800000000000000
+      internalID: 7369422475116114518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc_8
+      name: orc2_attack_full_2
       rect:
         serializedVersion: 2
-        x: 244
-        y: 443
-        width: 22
-        height: 15
+        x: 128
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -409,20 +283,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a776ad1f44eaab1c0800000000000000
-      internalID: -4487082467582646406
+      spriteID: f9329cddde9c7bfe0800000000000000
+      internalID: -1173247154441346145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc_9
+      name: orc2_attack_full_3
       rect:
         serializedVersion: 2
-        x: 344
-        y: 443
-        width: 22
-        height: 14
+        x: 192
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -431,526 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 209947f569af6a1c0800000000000000
-      internalID: -4492628054501975806
+      spriteID: 0d986e7b68c43ea00800000000000000
+      internalID: 784554901587266000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc_10
-      rect:
-        serializedVersion: 2
-        x: 444
-        y: 443
-        width: 22
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 36f1c6685f24217b0800000000000000
-      internalID: -5255064192898293917
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc_11
-      rect:
-        serializedVersion: 2
-        x: 544
-        y: 443
-        width: 22
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 79148698f3a05a810800000000000000
-      internalID: 1775836896072057239
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc_12
-      rect:
-        serializedVersion: 2
-        x: 644
-        y: 442
-        width: 22
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 156f912c5f4b81670800000000000000
-      internalID: 8509750463533020753
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc_13
-      rect:
-        serializedVersion: 2
-        x: 744
-        y: 443
-        width: 22
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c3c911f583e28b330800000000000000
-      internalID: 3726779511297121340
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc_14
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 343
-        width: 22
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cee8f677cd351f110800000000000000
-      internalID: 1292906774393753324
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc_15
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 343
-        width: 19
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6d1a14c31bc21d220800000000000000
-      internalID: 2508835607153844694
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc_16
-      rect:
-        serializedVersion: 2
-        x: 236
-        y: 343
-        width: 19
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2d556cda914093200800000000000000
-      internalID: 160163770084513234
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc_17
-      rect:
-        serializedVersion: 2
-        x: 345
-        y: 338
-        width: 28
-        height: 26
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a95deb25319557cf0800000000000000
-      internalID: -255199864349076070
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc_18
-      rect:
-        serializedVersion: 2
-        x: 445
-        y: 338
-        width: 28
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 64af247f3beeae8c0800000000000000
-      internalID: -3969097664858752442
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc_19
-      rect:
-        serializedVersion: 2
-        x: 545
-        y: 338
-        width: 26
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2507273825c5f5650800000000000000
-      internalID: 6223794719511703634
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc_20
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 243
-        width: 22
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8dc2c9e6e46a85e80800000000000000
-      internalID: -8189613066579858216
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc_21
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 243
-        width: 19
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ddec2bdd71f8489a0800000000000000
-      internalID: -6231698651707420963
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc_22
-      rect:
-        serializedVersion: 2
-        x: 236
-        y: 243
-        width: 19
-        height: 23
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 72f3bf4c1b1b1f190800000000000000
-      internalID: -7930362091750605017
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc_23
-      rect:
-        serializedVersion: 2
-        x: 345
-        y: 234
-        width: 29
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 560345d437ee04360800000000000000
-      internalID: 7151978387250360421
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc_24
-      rect:
-        serializedVersion: 2
-        x: 445
-        y: 234
-        width: 22
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 38ac4c9dd98cafc20800000000000000
-      internalID: 3241123462135466627
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc_25
-      rect:
-        serializedVersion: 2
-        x: 545
-        y: 237
-        width: 17
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 68f9751ee4a4becb0800000000000000
-      internalID: -4833688072403574906
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc_26
-      rect:
-        serializedVersion: 2
-        x: 42
-        y: 143
-        width: 23
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d5559fbd5c6f15bf0800000000000000
-      internalID: -337217167416535715
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc_27
-      rect:
-        serializedVersion: 2
-        x: 142
-        y: 143
-        width: 23
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 19b983b0ade084ce0800000000000000
-      internalID: -1420869352781472879
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc_28
-      rect:
-        serializedVersion: 2
-        x: 242
-        y: 143
-        width: 23
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9417344b668248980800000000000000
-      internalID: -8537654572011523767
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc_29
-      rect:
-        serializedVersion: 2
-        x: 342
-        y: 143
-        width: 23
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 532caeaa2348e4a30800000000000000
-      internalID: 4201440855533994549
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc_30
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 43
-        width: 22
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 28444cf6ee551dcf0800000000000000
-      internalID: -229307623453473662
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc_31
-      rect:
-        serializedVersion: 2
-        x: 140
-        y: 45
-        width: 26
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f469a349c0cdcc350800000000000000
-      internalID: 6038443146981578319
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc_32
-      rect:
-        serializedVersion: 2
-        x: 237
-        y: 48
-        width: 15
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 353a7f6a47acd42a0800000000000000
-      internalID: -6751517663992241325
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Orc_33
+      name: orc2_attack_full_4
       rect:
         serializedVersion: 2
         x: 256
-        y: 44
-        width: 9
-        height: 10
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -959,20 +327,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6d40b3958c7d9ba10800000000000000
-      internalID: 1925807571168068822
+      spriteID: 92901c4960e63baa0800000000000000
+      internalID: -6146448091886057175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc_34
+      name: orc2_attack_full_5
       rect:
         serializedVersion: 2
-        x: 336
-        y: 44
-        width: 15
-        height: 10
+        x: 320
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -981,20 +349,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 68af46e5947386e20800000000000000
-      internalID: 3343983511578409606
+      spriteID: 763fd64841c79d210800000000000000
+      internalID: 1358253190191903591
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Orc_35
+      name: orc2_attack_full_6
       rect:
         serializedVersion: 2
-        x: 356
-        y: 44
-        width: 9
-        height: 10
+        x: 384
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1003,8 +371,558 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: af00633f966159ed0800000000000000
-      internalID: -2407993781451882246
+      spriteID: e1419a87dbcf8a800800000000000000
+      internalID: 624026439094178846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a0891603f5e2650800000000000000
+      internalID: 6210005597590915697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2509492bef238890800000000000000
+      internalID: -7457063870938938066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a31cf34e947c040800000000000000
+      internalID: 4667780783463807567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4645e4e02ea87380800000000000000
+      internalID: -8973230801233295797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d31efb527c34660800000000000000
+      internalID: 7368952380255190324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91459985f85d72d0800000000000000
+      internalID: -3279367142057360995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ed5caccaa65fb20800000000000000
+      internalID: 3167555203293896314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: befffa32dce1eab50800000000000000
+      internalID: 6606251569814962155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_15
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e7a77bb313e337f0800000000000000
+      internalID: -633913448640043036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d066f0716ee67b30800000000000000
+      internalID: 4284874197764038867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa886262abef78420800000000000000
+      internalID: 2632352582678775983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9795510ef5a18920800000000000000
+      internalID: 2990854137913382811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627783bc515229d80800000000000000
+      internalID: -8245487192227940570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4dc55f68e2d16a80800000000000000
+      internalID: -8475261127992423094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_21
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210223b3388b2b1a0800000000000000
+      internalID: -6795166013975289838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c385feb1dbc5a210800000000000000
+      internalID: 1343704165552325570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_23
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7348d0062fc11130800000000000000
+      internalID: 3535834944592429949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7ba3311b79b5c40800000000000000
+      internalID: 5502158156550813649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806558c2119a58070800000000000000
+      internalID: 8108072595376920072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7152d4b961ee8f0800000000000000
+      internalID: -509444851576268862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ed5fa8ac7d53040800000000000000
+      internalID: 4626841457107787390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae6e67ce4dc8daf40800000000000000
+      internalID: 5741399946095421162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1115f9db796ad15c0800000000000000
+      internalID: -4243052103261531887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_30
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06dec9c2e0d806b0800000000000000
+      internalID: -5329780486526020083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc2_attack_full_31
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2fb561117e708b0800000000000000
+      internalID: -5185922385318251823
       vertices: []
       indices: 
       edges: []
@@ -1013,7 +931,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: fb85a7c7d3063094883a1e43d80097d7
+    spriteID: 13a2a7d11b68779428b3a81fb5f7538d
     internalID: 0
     vertices: []
     indices: 
@@ -1023,44 +941,40 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Orc_0: 3799508404887519019
-      Orc_1: -9003958548615516068
-      Orc_10: -5255064192898293917
-      Orc_11: 1775836896072057239
-      Orc_12: 8509750463533020753
-      Orc_13: 3726779511297121340
-      Orc_14: 1292906774393753324
-      Orc_15: 2508835607153844694
-      Orc_16: 160163770084513234
-      Orc_17: -255199864349076070
-      Orc_18: -3969097664858752442
-      Orc_19: 6223794719511703634
-      Orc_2: -4848521796537363852
-      Orc_20: -8189613066579858216
-      Orc_21: -6231698651707420963
-      Orc_22: -7930362091750605017
-      Orc_23: 7151978387250360421
-      Orc_24: 3241123462135466627
-      Orc_25: -4833688072403574906
-      Orc_26: -337217167416535715
-      Orc_27: -1420869352781472879
-      Orc_28: -8537654572011523767
-      Orc_29: 4201440855533994549
-      Orc_3: -4561745191760880128
-      Orc_30: -229307623453473662
-      Orc_31: 6038443146981578319
-      Orc_32: -6751517663992241325
-      Orc_33: 1925807571168068822
-      Orc_34: 3343983511578409606
-      Orc_35: -2407993781451882246
-      Orc_4: 2090174075836721236
-      Orc_5: -104981853600970874
-      Orc_6: 2897101806617490989
-      Orc_7: -5387681273772109387
-      Orc_8: -4487082467582646406
-      Orc_9: -4492628054501975806
+      orc2_attack_full_0: 8954187285698921793
+      orc2_attack_full_1: 7369422475116114518
+      orc2_attack_full_10: -8973230801233295797
+      orc2_attack_full_11: 7368952380255190324
+      orc2_attack_full_12: -3279367142057360995
+      orc2_attack_full_13: 3167555203293896314
+      orc2_attack_full_14: 6606251569814962155
+      orc2_attack_full_15: -633913448640043036
+      orc2_attack_full_16: 4284874197764038867
+      orc2_attack_full_17: 2632352582678775983
+      orc2_attack_full_18: 2990854137913382811
+      orc2_attack_full_19: -8245487192227940570
+      orc2_attack_full_2: -1173247154441346145
+      orc2_attack_full_20: -8475261127992423094
+      orc2_attack_full_21: -6795166013975289838
+      orc2_attack_full_22: 1343704165552325570
+      orc2_attack_full_23: 3535834944592429949
+      orc2_attack_full_24: 5502158156550813649
+      orc2_attack_full_25: 8108072595376920072
+      orc2_attack_full_26: -509444851576268862
+      orc2_attack_full_27: 4626841457107787390
+      orc2_attack_full_28: 5741399946095421162
+      orc2_attack_full_29: -4243052103261531887
+      orc2_attack_full_3: 784554901587266000
+      orc2_attack_full_30: -5329780486526020083
+      orc2_attack_full_31: -5185922385318251823
+      orc2_attack_full_4: -6146448091886057175
+      orc2_attack_full_5: 1358253190191903591
+      orc2_attack_full_6: 624026439094178846
+      orc2_attack_full_7: 6210005597590915697
+      orc2_attack_full_8: -7457063870938938066
+      orc2_attack_full_9: 4667780783463807567
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

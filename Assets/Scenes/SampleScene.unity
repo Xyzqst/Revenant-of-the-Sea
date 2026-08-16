@@ -349,7 +349,7 @@ RectTransform:
   m_GameObject: {fileID: 122291585}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.514693, y: 0.52022517, z: 1}
+  m_LocalScale: {x: 0.4, y: 0.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1655088367}
@@ -428,7 +428,7 @@ GameObject:
   - component: {fileID: 161268031}
   - component: {fileID: 161268033}
   - component: {fileID: 161268034}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -484,7 +484,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 3790629738752367944, guid: ac46f6c9a8c27354baf0f0457d966e93, type: 3}
+  m_Sprite: {fileID: 1848645260731344120, guid: b73df1b2b4d6b0b47a59912bb305c070, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -559,7 +559,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.0001
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 0
@@ -589,8 +589,6 @@ MonoBehaviour:
   speed: 4
   anim: {fileID: 161268032}
   lastMoveDirection: {x: 0, y: -1}
-  dashSpeed: 15
-  dashCooldown: 1
 --- !u!95 &161268032
 Animator:
   serializedVersion: 7
@@ -643,8 +641,8 @@ MonoBehaviour:
   rb: {fileID: 161268030}
   attackCooldown: 0.3
   attackpoint: {fileID: 1457324525}
-  attackdistance: 0.25
-  attackradius: 0.3
+  attackdistance: 0.2
+  attackArea: {x: 1.7, y: 2}
   enemyLayer:
     serializedVersion: 2
     m_Bits: 128
@@ -1090,7 +1088,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 392, y: -85}
+  m_AnchoredPosition: {x: 395, y: -83}
   m_SizeDelta: {x: 650, y: 130}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &914808387
@@ -5184,16 +5182,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 10, y: 0, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 13
-      m_TileSpriteIndex: 13
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 11, y: 0, z: 0}
     second:
       serializedVersion: 2
@@ -8626,7 +8614,7 @@ Tilemap:
     m_RefCount: 12
     m_Data: {fileID: 11400000, guid: 8c89b40a99983a143a1626e3437f28ef, type: 2}
   - serializedVersion: 2
-    m_RefCount: 10
+    m_RefCount: 9
     m_Data: {fileID: 11400000, guid: 161d7d2d2a64db540bf474118aa0b0d8, type: 2}
   - serializedVersion: 2
     m_RefCount: 7
@@ -8696,7 +8684,7 @@ Tilemap:
     m_RefCount: 12
     m_Data: {fileID: 342006686, guid: db86a55c020c16d4d94df39f29311c46, type: 3}
   - serializedVersion: 2
-    m_RefCount: 10
+    m_RefCount: 9
     m_Data: {fileID: 1055304683, guid: db86a55c020c16d4d94df39f29311c46, type: 3}
   - serializedVersion: 2
     m_RefCount: 7
@@ -8727,7 +8715,7 @@ Tilemap:
     m_Data: {fileID: -2075109201, guid: db86a55c020c16d4d94df39f29311c46, type: 3}
   m_TileMatrixArray:
   - serializedVersion: 2
-    m_RefCount: 732
+    m_RefCount: 731
     m_Data:
       e00: 1
       e01: 0
@@ -8747,7 +8735,7 @@ Tilemap:
       e33: 1
   m_TileColorArray:
   - serializedVersion: 2
-    m_RefCount: 732
+    m_RefCount: 731
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -8807,9 +8795,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 68, y: -72}
-  m_SizeDelta: {x: 140, y: 140}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 71.646, y: -65.247}
+  m_SizeDelta: {x: 143.291, y: 148}
+  m_Pivot: {x: 0.5, y: 0.55914134}
 --- !u!114 &944229565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8830,7 +8818,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2591871152430962442, guid: 04e67dfddac7fef48a83592d495da957, type: 3}
+  m_Sprite: {fileID: 5491753871359132311, guid: 1e86cc87cd06d9d4798eee2505a73afd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8884,6 +8872,37 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1036216481
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1036216482}
+  m_Layer: 0
+  m_Name: EnemyAttackPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1036216482
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036216481}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.804, y: 0.114, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1811215008}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1319345100
 GameObject:
   m_ObjectHideFlags: 0
@@ -8968,7 +8987,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1457324525}
-  - component: {fileID: 1457324526}
   m_Layer: 0
   m_Name: AttackPoint
   m_TagString: Untagged
@@ -8991,52 +9009,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 161268028}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1457324526
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1457324524}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!1 &1518566542
 GameObject:
   m_ObjectHideFlags: 0
@@ -9461,7 +9433,6 @@ GameObject:
   - component: {fileID: 1811215008}
   - component: {fileID: 1811215007}
   - component: {fileID: 1811215015}
-  - component: {fileID: 1811215010}
   - component: {fileID: 1811215014}
   - component: {fileID: 1811215006}
   - component: {fileID: 1811215009}
@@ -9486,7 +9457,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 0
@@ -9550,7 +9521,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 3799508404887519019, guid: 99b04644606997940b49d7bc3a723199, type: 3}
+  m_Sprite: {fileID: 4457886117139728611, guid: a6c934fbcabbdcb4191b2216daed3a93, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9570,10 +9541,11 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.91, y: -0.12, z: 0}
-  m_LocalScale: {x: 8, y: 8, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 475012417}
+  - {fileID: 1036216482}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1811215009
@@ -9610,31 +9582,18 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.045968235, y: -0.00050900877}
+  m_Offset: {x: -0.049695686, y: 0.110755086}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.22, y: 0.15}
+    oldSize: {x: 2, y: 2}
     newSize: {x: 1, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.14537501, y: 0.17120466}
+  m_Size: {x: 1.0923544, y: 1.1806123}
   m_EdgeRadius: 0
---- !u!114 &1811215010
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1811215005}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 562962f821169fe48bb9ec854157af5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyCombat
-  damage: 1
 --- !u!95 &1811215012
 Animator:
   serializedVersion: 7
@@ -9692,7 +9651,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.46252355
+  m_Radius: 1.6571211
 --- !u!114 &1811215014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9706,6 +9665,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
   speed: 3
+  anim: {fileID: 1811215012}
+  currentState: 0
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  attackPoint: {fileID: 1036216482}
+  attackArea: {x: 0.7, y: 1.6}
+  attackDistance: 0.5
+  attackRange: 1.7
 --- !u!114 &1811215015
 MonoBehaviour:
   m_ObjectHideFlags: 0

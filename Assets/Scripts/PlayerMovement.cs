@@ -12,10 +12,6 @@ private Rigidbody2D rb;
 
 public Vector2 lastMoveDirection = Vector2.down;
 
-public float dashSpeed = 15f;
-public float dashCooldown = 1f;
-
-
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -28,12 +24,9 @@ public float dashCooldown = 1f;
     void Update()
     {   
 
-     
-
-    
         if (Input.GetKeyDown(KeyCode.Space) )
         {
-           
+           Debug.Log("dash");
         }
 
         //Movement 
