@@ -7,6 +7,9 @@ using TMPro;
 public class PlayerMovement : MonoBehaviour
 {
 
+//https://www.youtube.com/watch?v=MeRdj89Oetc - reference for animation 
+
+
 //Variables 
 public float speed = 4f;
 public Animator anim;
