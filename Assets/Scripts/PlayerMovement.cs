@@ -1,22 +1,32 @@
 using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
+using TMPro;
+
 
 public class PlayerMovement : MonoBehaviour
 {
 
-//Variables
+//Variables 
 public float speed = 4f;
 public Animator anim;
 private Rigidbody2D rb;
 
 public Vector2 lastMoveDirection = Vector2.down;
 
+public int gemCounter = 0;
+
+public int gemtotal = 5;
+
+public TMP_Text counterText;
+
+public GameObject doorPuzzle;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        counterText.text = "Gem collected:" + gemCounter + "/" + gemtotal ;
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -51,10 +61,23 @@ public Vector2 lastMoveDirection = Vector2.down;
        
     }
 
-
-
-void dash()
+    //this on trigger is how the 
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        if (collision.CompareTag("Gem") && collision.gameObject.activeSelf == true)
+        {
+            collision.gameObject.SetActive(false);
+            gemCounter += 1;
+            counterText.text = "Gem collected:" + gemCounter + "/" + gemtotal ;
+        }
+
+        if(gemCounter == gemtotal)
+        {
+            counterText.text = "All Gems collected";
+            doorPuzzle.gameObject.SetActive(false);
+            
+        }
     }
+
+
 }

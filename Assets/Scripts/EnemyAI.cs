@@ -15,10 +15,20 @@ public class EnemyAI : MonoBehaviour
     public LayerMask playerLayer;
 
 
+    
+    public int damage = 1;
+
+
     public Transform attackPoint;
-    public Vector2 attackArea = new Vector2(0.7f, 1.6f);
-    public float attackDistance = 0.7f;
-    public float attackRange = 1.7f;
+    public Vector2 attackArea = new Vector2(0.8f, 1.8f);
+    public float attackDistance = 0.8f;
+    public float attackRange = 2f;
+
+
+    private float attackCooldownTimer;
+    public float attackCooldown = 2;
+
+    
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -30,6 +40,10 @@ public class EnemyAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {   
+        if(attackCooldownTimer > 0)
+        {
+            attackCooldownTimer -=Time.deltaTime;
+        }
 
         switch (currentState)
         {
@@ -75,25 +89,42 @@ public class EnemyAI : MonoBehaviour
 
     void Chase()
     {   
+
+        if (player == null)
+        {
+            changeState(EnemyState.Idle);
+            return;
+        }
+
         Vector2 moveDirection = (player.position - transform.position).normalized;
 
-        if(Vector2.Distance(transform.position, player.transform.position) < attackRange)
-        {   
-           
-            rb.linearVelocity = Vector2.zero;
-            attacking(moveDirection);
-            changeState(EnemyState.Attacking);
-        }
+        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
-        else
+        // Player is within attack range
+        if (distanceToPlayer <= attackRange)
         {
+            // Stop moving while inside attack range
+            rb.linearVelocity = Vector2.zero;
 
-            anim.SetFloat("Speed", moveDirection.magnitude);
-            anim.SetFloat("Horizontal",moveDirection.x);
-            anim.SetFloat("Vertical", moveDirection.y);
-            rb.linearVelocity = moveDirection * speed;
+            // Only attack when cooldown is finished
+            if (attackCooldownTimer <= 0)
+            {
+                attacking(moveDirection);
+
+                attackCooldownTimer = attackCooldown;
+
+                changeState(EnemyState.Attacking);
+            }
+
+            return;
         }
 
+        // Player is outside attack range, so chase
+        anim.SetFloat("Speed", moveDirection.magnitude);
+        anim.SetFloat("Horizontal", moveDirection.x);
+        anim.SetFloat("Vertical", moveDirection.y);
+
+        rb.linearVelocity = moveDirection * speed;
         
     }
 
@@ -144,7 +175,17 @@ public class EnemyAI : MonoBehaviour
 
     public void dealDamage()
     {
-        
+        Collider2D[] hit = Physics2D.OverlapBoxAll(attackPoint.position,attackArea,attackPoint.eulerAngles.z,playerLayer);
+
+        foreach (Collider2D collider in hit)
+        {
+            PlayerHealth playerHealth = collider.GetComponentInParent<PlayerHealth>();
+
+            if (playerHealth != null)
+            {
+                playerHealth.changeHealth(-damage);
+            }
+        }
     }
 
     public void finishAttacking()
@@ -153,7 +194,7 @@ public class EnemyAI : MonoBehaviour
         changeState(EnemyState.Chasing);
     }
 
-  
+
 
  
 }
